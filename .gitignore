@@ -1,0 +1,12 @@
+# Object files
+*.o
+*.elf
+
+# General project-specific ignores
+build/*
+tools/agbcc/*
+*.gba
+*.sav
+*.dump
+.vscode/*
+ctx.c
