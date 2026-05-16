@@ -55,51 +55,51 @@ return
 @ Rap Women - Text
 
 text text_rap_women_juji_desu_ka
-    .asciz ".b:1俙俵侾侽丗侽侽丂偱偡:0偐丠"
+    .asciz ".b:1十点了:0吗？"
 endtext
 
 text text_rap_women_oyatsu_desu_ka
-    .asciz ".b:1偍傗偮丂偱偡:0偐丠"
+    .asciz ".b:1来吃点心:0吗？"
 endtext
 
 text text_rap_women_naisho_desu_ka
-    .asciz ".b:1僫僀僔儑偱偡:0偐丠"
+    .asciz ".b:1要保密:0吗？"
 endtext
 
 text text_rap_women_kare_no_oyatsu_da_ne
-    .asciz ".9:1僇儗偺偍傗偮丂偩:0偹"
+    .asciz ".9:1那是他放的点心:0吧"
 endtext
 
 text text_rap_women_tabeteii_kamo_ne
-    .asciz ".9:1偨傋偰偄乕丂偐傕:0僱"
+    .asciz ".9:1应该可以偷吃的:0吧"
 endtext
 
 text text_rap_women_aketeii_kamo_ne
-    .asciz ".9:1偁偗偰偄乕丂偐傕:0僱"
+    .asciz ".9:1应该可以打开的:0吧"
 endtext
 
 text text_rap_women_oyatsu_wa_saikou
-    .asciz ".a:1偍傗偮偼丂:0僒僀僐乕両両"
+    .asciz ".a:1吃点心最棒:0啦一！！"
 endtext
 
 text text_rap_women_kibun_wa_saikou
-    .asciz ".a:1偒傇傫偼丂:0僒僀僐乕両両"
+    .asciz ".a:1心情最棒:0啦一！！"
 endtext
 
 text text_rap_women_amakute_saikou
-    .asciz ".a:1偁傑偔偰丂:0僒僀僐乕両両"
+    .asciz ".a:1甜品都太棒:0啦一！！"
 endtext
 
 text text_rap_women_betsubara_saikou
-    .asciz ".a:1傋偮偽傜丂:0僒僀僐乕両両"
+    .asciz ".a:1半饱腹最棒:0啦一！！"
 endtext
 
 text text_rap_women_kare_ni_wa_naisho
-    .asciz ".a:1僇儗偵偼丂:0僫僀僔儑乕両両"
+    .asciz ".a:1对他要保密:0啊一！！"
 endtext
 
 text text_rap_women_dare_ni_mo_naisho
-    .asciz ".a:1僟儗偵傕丂:0僫僀僔儑乕両両"
+    .asciz ".a:1对谁都要保密:0呀一！！"
 endtext
 
 
