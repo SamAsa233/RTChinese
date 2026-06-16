@@ -2,39 +2,39 @@
 struct LevelData level_data_table[] = {
     /* KARATE_MAN */ {
         /* Entry Scene   */ &scene_karate_man,
-        /* Level Name    */ "僇儔僥壠",
-        /* Level Desc.   */ "偲傫偱偔傞儌僲傪\n"
-                            "A儃僞儞偱僷儞僠両\n"
-                            "傛偔偁傞僎乕儉丠\n"
-                            "乧偐傕偹丅",
+        /* Level Name    */ "空手道家",
+        /* Level Desc.   */ "按A键出拳来击\n"
+                            "打飞来的东西！\n"
+                            "是很典型的游戏\n"
+                            "…没错吧？",
         /* Level Icon    */ 8,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_karate_man_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "柧擔偑 偁傞偝丅",
-            /* OK        */ "偲傝偁偊偢丄偛偼傫 怘傋偲偙偆両",
+            /* TRY_AGAIN */ "总会有明天的。",
+            /* OK        */ "总而言之，先吃饭吧！",
             /* SUPERB    */ "偙傫側偵 僽僢偲偽偟偪傖偭偨両両"
         }
     },
     /* KARATE_MAN_2 */ {
         /* Entry Scene   */ &scene_karate_man_2,
-        /* Level Name    */ "僇儔僥壠 俀",
-        /* Level Desc.   */ "偲傫偱偔傞儌僲傪\n"
-                            "A儃僞儞偱僷儞僠両\n"
-                            "偱傕丄 僗僺乕僪偑\n"
-                            "僿儞僥僐偩儓丅",
+        /* Level Name    */ "空手道家 ２",
+        /* Level Desc.   */ "按A键出拳来击\n"
+                            "打飞来的东西！\n"
+                            "但是，速度是\n"
+                            "很奇怪的。",
         /* Level Icon    */ 0,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_karate_man_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "僥儞億偑 側傫偩乕両両",
-            /* OK        */ "傑丄偝偰偍偒丅 偛偼傫 怘傋傛偆両",
+            /* TRY_AGAIN */ "这节奏是什么鬼啊—！！",
+            /* OK        */ "不管那些，先吃饭吧！",
             /* SUPERB    */ "偞偭偲 偙傫側儌儞偩偤乕両両"
         }
     },
     /* CLAPPY_TRIO */ {
         /* Entry Scene   */ &scene_clappy_trio,
-        /* Level Name    */ "僷僠僷僠嶰恖廜",
+        /* Level Name    */ "啪叽啪叽三人组",
         /* Level Desc.   */ "弴斣偵攺庤傪偡傞儓両\n"
                             "偁側偨偼俁斣栚丅\n"
                             "慜偺2恖傪傛偔尒偰僱両",
@@ -49,7 +49,7 @@ struct LevelData level_data_table[] = {
     },
     /* SNAPPY_TRIO */ {
         /* Entry Scene   */ &scene_snappy_trio,
-        /* Level Name    */ "僶儕僶儕嶰恖廜",
+        /* Level Name    */ "帅气帅气三人组",
         /* Level Desc.   */ "儔僼偩偭偨斵傜偑\n"
                             "僶儕偭偲僗乕僣傪\n"
                             "拝偰偒偨儓両\n"
@@ -65,7 +65,7 @@ struct LevelData level_data_table[] = {
     },
     /* POLYRHYTHM */ {
         /* Entry Scene   */ &scene_polyrhythm,
-        /* Level Name    */ "億儕儕僘儉",
+        /* Level Name    */ "多轨节奏",
         /* Level Desc.   */ "廫\帤儃僞儞偲俙儃僞儞偺摨帪墴偟傪儅僗僞乕偩両偗偭偙偆僇儞僞儞偩丅偨傇傫乧",
         /* Level Icon    */ 3,
         /* Level Type    */ LEVEL_TYPE_GAME,
@@ -78,7 +78,7 @@ struct LevelData level_data_table[] = {
     },
     /* POLYRHYTHM_2 */ {
         /* Entry Scene   */ &scene_polyrhythm_2,
-        /* Level Name    */ "億儕儕僘儉 俀",
+        /* Level Name    */ "多轨节奏 ２",
         /* Level Desc.   */ "偙傟偧嵍塃撈棫両\n"
                             "僥儞億傛偔 偙側偟偰\n"
                             "儗僢僣 億儕儕僘儉両\n"
@@ -94,7 +94,7 @@ struct LevelData level_data_table[] = {
     },
     /* NIGHT_WALK */ {
         /* Entry Scene   */ &scene_night_walk,
-        /* Level Name    */ "僫僀僩僂僅乕僋",
+        /* Level Name    */ "夜空漫步",
         /* Level Desc.   */ "壒妝偵偁傢偣偰\n"
                             "僕儍儞僾偟偰僱両\n"
                             "惎偨偪偑 偁偮傑偭偰\n"
@@ -110,7 +110,7 @@ struct LevelData level_data_table[] = {
     },
     /* NIGHT_WALK_2 */ {
         /* Entry Scene   */ &scene_night_walk_2,
-        /* Level Name    */ "僫僀僩僂僅乕僋 俀",
+        /* Level Name    */ "夜空漫步 ２",
         /* Level Desc.   */ "壒妝偵偁傢偣偰\n"
                             "僕儍儞僾偟偰僱両\n"
                             "價儕價儕僂僆偵\n"
@@ -126,7 +126,7 @@ struct LevelData level_data_table[] = {
     },
     /* RHYTHM_TWEEZERS */ {
         /* Entry Scene   */ &scene_rhythm_tweezers,
-        /* Level Name    */ "儕僘儉扙栄",
+        /* Level Name    */ "节奏脱毛",
         /* Level Desc.   */ "偳傫偳傫惗偊偰偔傞\n"
                             "偆偭偲偆偟偄乽栄乿両\n"
                             "偸偄偪傖偊丄 \n"
@@ -142,7 +142,7 @@ struct LevelData level_data_table[] = {
     },
     /* RHYTHM_TWEEZERS_2 */ {
         /* Entry Scene   */ &scene_rhythm_tweezers_2,
-        /* Level Name    */ "儕僘儉扙栄 俀",
+        /* Level Name    */ "节奏脱毛 ２",
         /* Level Desc.   */ "傑偨偟偰傕惗偊偰偔傞\n"
                             "偆偭偲偆偟偄乽栄乿両\n"
                             "偸偄偪傖偊丄 \n"
@@ -158,7 +158,7 @@ struct LevelData level_data_table[] = {
     },
     /* SICK_BEATS */ {
         /* Entry Scene   */ &scene_sick_beats,
-        /* Level Name    */ "僶僀僉儞 偼偐偣",
+        /* Level Name    */ "细菌博士",
         /* Level Desc.   */ "彆庤偐傜偺抦傜偣\n"
                             "乽戝曄偱偡両\n"
                             "僶僀僉儞敪惗偱偡両両\n"
@@ -174,7 +174,7 @@ struct LevelData level_data_table[] = {
     },
     /* BOUNCY_ROAD */ {
         /* Entry Scene   */ &scene_bouncy_road,
-        /* Level Name    */ "儂僢僺儞僌儘乕僪",
+        /* Level Name    */ "弹跳之路",
         /* Level Desc.   */ "偲傫偱偔傞娵偄嬍丅\n"
                             "偁傟偼僀僀傗偮偱偡丅\n"
                             "棊偲偝側偄偱僱両",
@@ -189,7 +189,7 @@ struct LevelData level_data_table[] = {
     },
     /* BOUNCY_ROAD_2 */ {
         /* Entry Scene   */ &scene_bouncy_road_2,
-        /* Level Name    */ "儂僢僺儞僌儘乕僪俀",
+        /* Level Name    */ "弹跳之路 ２",
         /* Level Desc.   */ "偲傫偱偔傞娵偄嬍丅\n"
                             "傎傫偲偵僀僀傗偮\n"
                             "側傫偱偡儓乣丅\n"
@@ -205,7 +205,7 @@ struct LevelData level_data_table[] = {
     },
     /* NINJA_BODYGUARD */ {
         /* Entry Scene   */ &scene_ninja_bodyguard,
-        /* Level Name    */ "擡幰",
+        /* Level Name    */ "忍者",
         /* Level Desc.   */ "揋廝(偰偒偟傘偆)偩両\n"
                             "廫\帤儃僞儞偲A儃僞儞偱墳愴(偍偆偣傫)偩両\n"
                             "僼僕儎儅乮傆偠偝傫乯両両",
@@ -220,7 +220,7 @@ struct LevelData level_data_table[] = {
     },
     /* NINJA_REINCARNATE */ {
         /* Entry Scene   */ &scene_ninja_reincarnate,
-        /* Level Name    */ "擡幰偺巕懛",
+        /* Level Name    */ "忍者的后代",
         /* Level Desc.   */ "僆儗偺偠偄偪傖傫偺\n"
                             "偠偄偪傖傫偺\n"
                             "偠偄偪傖傫偼\n"
@@ -236,7 +236,7 @@ struct LevelData level_data_table[] = {
     },
     /* SNEAKY_SPIRITS */ {
         /* Entry Scene   */ &scene_sneaky_spirits,
-        /* Level Name    */ "偟傠偄偍偽偗",
+        /* Level Name    */ "白色的鬼",
         /* Level Desc.   */ "敀偄儎僣偑 偙偪傜傪\n"
                             "僶僇偵偟偰偄傞両\n"
                             "儉僉乕僢両両\n"
@@ -252,7 +252,7 @@ struct LevelData level_data_table[] = {
     },
     /* SNEAKY_SPIRITS_2 */ {
         /* Entry Scene   */ &scene_sneaky_spirits_2,
-        /* Level Name    */ "偟傠偄偍偽偗 俀",
+        /* Level Name    */ "白色的鬼 ２",
         /* Level Desc.   */ "敀偄儎僣偑 偙偪傜傪\n"
                             "僫儊偒偭偰偄傞両\n"
                             "儉僇儉僇乕僢両両\n"
@@ -268,7 +268,7 @@ struct LevelData level_data_table[] = {
     },
     /* SAMURAI_SLICE */ {
         /* Entry Scene   */ &scene_samurai_slice,
-        /* Level Name    */ "傤偁傂巃傝",
+        /* Level Name    */ "居合斩",
         /* Level Desc.   */ "偦偙偺偗 偦偙偺偗\n"
                             "搝傜偑捠傞丅\n"
                             "偍偸偟偼 僒儉儔僀丄\n"
@@ -284,7 +284,7 @@ struct LevelData level_data_table[] = {
     },
     /* SPACEBALL */ {
         /* Entry Scene   */ &scene_spaceball,
-        /* Level Name    */ "僄傾乕僶僢僞乕",
+        /* Level Name    */ "空中击球手",
         /* Level Desc.   */ "僘乕儉傪偒偵偡傞側両\n"
                             "怱偱儃乕儖傪懪偰両\n"
                             "帇妎偵棅傞側両\n"
@@ -300,7 +300,7 @@ struct LevelData level_data_table[] = {
     },
     /* SPACEBALL_2 */ {
         /* Entry Scene   */ &scene_spaceball_2,
-        /* Level Name    */ "僄傾乕僶僢僞乕 俀",
+        /* Level Name    */ "空中击球手 ２",
         /* Level Desc.   */ "僘乕儉傪偒偵偡傞側両\n"
                             "怱偱儃乕儖傪懪偰両\n"
                             "帇妎偵棅傞側両\n"
@@ -316,7 +316,7 @@ struct LevelData level_data_table[] = {
     },
     /* TAP_TRIAL */ {
         /* Entry Scene   */ &scene_tap_trial,
-        /* Level Name    */ "僞僢僾僟儞僘",
+        /* Level Name    */ "踢踏舞",
         /* Level Desc.   */ "偁側偨偼彈偺巕丅\n"
                             "偲側傝偺僒儖偨偪偵\n"
                             "崌傢偣偰僞僢僾傪\n"
@@ -332,7 +332,7 @@ struct LevelData level_data_table[] = {
     },
     /* TAP_TRIAL_2 */ {
         /* Entry Scene   */ &scene_tap_trial_2,
-        /* Level Name    */ "僗乕僷乕僞僢僾",
+        /* Level Name    */ "超级踢踏舞",
         /* Level Desc.   */ "僒儖偑僷儚乕傾僢僾両\n"
                             "偁側偨偼 偐傟傜偵\n"
                             "偮偄偰偄偗傞偐両丠\n"
@@ -348,7 +348,7 @@ struct LevelData level_data_table[] = {
     },
     /* MARCHING_ORDERS */ {
         /* Entry Scene   */ &scene_marching_orders,
-        /* Level Name    */ "儅乕僠儍",
+        /* Level Name    */ "行军",
         /* Level Desc.   */ "峴恑傪偡傞偺偩丅\n"
                             "偐偭偰側峴摦偼僠乕儉傪僟儊偵偡傞両\n"
                             "偑傫偽傝偨傑偊丅",
@@ -363,7 +363,7 @@ struct LevelData level_data_table[] = {
     },
     /* MARCHING_ORDERS_2 */ {
         /* Entry Scene   */ &scene_marching_orders_2,
-        /* Level Name    */ "儅乕僠儍 俀",
+        /* Level Name    */ "行军 ２",
         /* Level Desc.   */ "峴恑傪偡傞偺偩丅\n"
                             "偙傫偳偺偼 偪傚偭偲\n"
                             "僥僋僯僇儖偩両\n"
@@ -379,7 +379,7 @@ struct LevelData level_data_table[] = {
     },
     /* WIZARDS_WALTZ */ {
         /* Entry Scene   */ &scene_wizards_waltz,
-        /* Level Name    */ "傑傎偆偮偐偄",
+        /* Level Name    */ "魔法师",
         /* Level Desc.   */ "偁側偨偼傑傎偆巊偄丅\n"
                             "偝傒偟偑傝傗偺\n"
                             "偍偠傚偆偪傖傫偵壴傪\n"
@@ -395,7 +395,7 @@ struct LevelData level_data_table[] = {
     },
     /* BUNNY_HOP */ {
         /* Entry Scene   */ &scene_bunny_hop,
-        /* Level Name    */ "僂僒僊偲傃",
+        /* Level Name    */ "跃兔",
         /* Level Desc.   */ "僕儍儞僾偑摼堄側\n"
                             "敀偄僂僒僊偝傫丅\n"
                             "價乕僩偵偺偭偰\n"
@@ -411,7 +411,7 @@ struct LevelData level_data_table[] = {
     },
     /* FIREWORKS */ {
         /* Entry Scene   */ &scene_fireworks,
-        /* Level Name    */ "壴壩",
+        /* Level Name    */ "烟火",
         /* Level Desc.   */ "壞偲偄偊偽偝丄\n"
                             "傗偭傁壴壩偐側丠\n"
                             "怓偁偞傗偐偵\n"
@@ -427,7 +427,7 @@ struct LevelData level_data_table[] = {
     },
     /* POWER_CALLIGRAPHY */ {
         /* Entry Scene   */ &scene_power_calligraphy,
-        /* Level Name    */ "儕僘儉偍廗帤",
+        /* Level Name    */ "节奏书法",
         /* Level Desc.   */ "昅傪巊偭偰擔杮岅傪\n"
                             "彂偒傑偡丅\n"
                             "偁側偨偑偡傞偺偼\n"
@@ -443,7 +443,7 @@ struct LevelData level_data_table[] = {
     },
     /* POWER_CALLIGRAPHY_2 */ {
         /* Entry Scene   */ &scene_power_calligraphy,
-        /* Level Name    */ "儕僘儉偍廗帤 俀",
+        /* Level Name    */ "节奏书法 ２",
         /* Level Desc.   */ "昅傪巊偭偰擔杮岅傪\n"
                             "彂偒傑偡丅\n"
                             "偁側偨偑偡傞偺偼\n"
@@ -459,7 +459,7 @@ struct LevelData level_data_table[] = {
     },
     /* TOSS_BOYS */ {
         /* Entry Scene   */ &scene_toss_boys,
-        /* Level Name    */ "僩僗儃乕僀僘",
+        /* Level Name    */ "传球少年",
         /* Level Desc.   */ "側偐傛偟俁恖慻丄\n"
                             "惡傪偐偗偁偄側偑傜\n"
                             "偄偮傕妝偟偔僩僗偺\n"
@@ -475,7 +475,7 @@ struct LevelData level_data_table[] = {
     },
     /* TOSS_BOYS_2 */ {
         /* Entry Scene   */ &scene_toss_boys_2,
-        /* Level Name    */ "僩僗儃乕僀僘 俀",
+        /* Level Name    */ "传球少年 ２",
         /* Level Desc.   */ "側偐傛偟俁恖慻丄\n"
                             "惡傪偐偗偁偄側偑傜\n"
                             "偄偮傕妝偟偔僩僗偺\n"
@@ -491,7 +491,7 @@ struct LevelData level_data_table[] = {
     },
     /* RAT_RACE */ {
         /* Entry Scene   */ &scene_rat_race,
-        /* Level Name    */ "偙偭偦傝 儔僢僩",
+        /* Level Name    */ "蹑鼠蹑脚",
         /* Level Desc.   */ "偁側偨偼僱僘儈丅\n"
                             "戝僗僉側僠乕僘傪\n"
                             "傔偞偟偰\n"
@@ -507,7 +507,7 @@ struct LevelData level_data_table[] = {
     },
     /* TRAM_PAULINE */ {
         /* Entry Scene   */ &scene_tram_pauline,
-        /* Level Name    */ "僩儔儞偲億儕儞",
+        /* Level Name    */ "小蹦与小床",
         /* Level Desc.   */ "偙偓偮偹僩儔儞丄\n"
                             "偦偟偰億儕儞偺\n"
                             "傾僋儘僶僥傿僢僋僔儑乕偑偼偠傑傞儓両",
@@ -522,7 +522,7 @@ struct LevelData level_data_table[] = {
     },
     /* SHOWTIME */ {
         /* Entry Scene   */ &scene_showtime,
-        /* Level Name    */ "僔儑乕僞僀儉",
+        /* Level Name    */ "表演时间",
         /* Level Desc.   */ "儁儞僊儞孨偨偪偺\n"
                             "僔儑乕僞僀儉偑\n"
                             "偼偠傑傞儓両\n"
@@ -538,7 +538,7 @@ struct LevelData level_data_table[] = {
     },
     /* SPACE_DANCE */ {
         /* Entry Scene   */ &scene_space_dance,
-        /* Level Name    */ "僗儁乕僗僟儞僗",
+        /* Level Name    */ "太空之舞",
         /* Level Desc.   */ "偙偙偼柍廳椡偺塅拡丅\n"
                             "偱傕丄 偍偳傠偆儓両\n"
                             "儗僢僣僗儁乕僗僟儞僗両",
@@ -553,7 +553,7 @@ struct LevelData level_data_table[] = {
     },
     /* COSMIC_DANCE */ {
         /* Entry Scene   */ &scene_cosmic_dance,
-        /* Level Name    */ "僐僗儌僟儞僗",
+        /* Level Name    */ "宇宙之舞",
         /* Level Desc.   */ "塅拡傪戙昞\偡傞\n"
                             "僟儞僒乕偨偪両\n"
                             "僉儗偨摦偒偵\n"
@@ -569,7 +569,7 @@ struct LevelData level_data_table[] = {
     },
     /* RAP_MEN */ {
         /* Entry Scene   */ &scene_rap_men,
-        /* Level Name    */ "儔僢僾儊儞",
+        /* Level Name    */ "饶舌男",
         /* Level Desc.   */ "僋乕儖側傆偨傝慻偑\n"
                             "傗偭偰偒偨両\n"
                             "傾僣偄儔僢僾偱\n"
@@ -585,7 +585,7 @@ struct LevelData level_data_table[] = {
     },
     /* RAP_WOMEN */ {
         /* Entry Scene   */ &scene_rap_women,
-        /* Level Name    */ "儔僢僾僂僀儊儞",
+        /* Level Name    */ "饶舌女",
         /* Level Desc.   */ "偁偺儔僢僾儊儞偵\n"
                             "儔僀僶儖偑搊応偩両\n"
                             "僉儏乕僩側儃僀僗偵\n"
@@ -601,7 +601,7 @@ struct LevelData level_data_table[] = {
     },
     /* QUIZ_SHOW */ {
         /* Entry Scene   */ &scene_quiz_show,
-        /* Level Name    */ "僋僀僘",
+        /* Level Name    */ "节奏问答",
         /* Level Desc.   */ "巌夛幰偺丄\n"
                             "乽偨偨偄偨夞悢乿傪\n"
                             "摉偰傞僇儞僞儞側\n"
@@ -617,7 +617,7 @@ struct LevelData level_data_table[] = {
     },
     /* BON_ODORI */ {
         /* Entry Scene   */ &scene_bon_odori,
-        /* Level Name    */ "僓仚傏傫偍偳傝",
+        /* Level Name    */ "The☆盂兰盆舞",
         /* Level Desc.   */ "傏傫偍偳傝偺\n"
                             "偆偨偵 偁傢偣偰\n"
                             "僷儞僢偲 庤傪\n"
@@ -633,7 +633,7 @@ struct LevelData level_data_table[] = {
     },
     /* BON_DANCE */ {
         /* Entry Scene   */ &scene_bon_dance,
-        /* Level Name    */ "儃儞僟儞僗",
+        /* Level Name    */ "盂兰盆舞",
         /* Level Desc.   */ "偙傟偑 偄傑偳偒偺\n"
                             "傏傫偍偳傝両\n"
                             "僲儕僲儕偩儓両\n"
@@ -649,7 +649,7 @@ struct LevelData level_data_table[] = {
     },
     /* REMIX_1 */ {
         /* Entry Scene   */ &scene_remix_1,
-        /* Level Name    */ "儕儈僢僋僗 侾",
+        /* Level Name    */ "Remix １",
         /* Level Desc.   */ "僉儈偺幚椡傪\n"
                             "帋偟偰傒偰傒傞丠\n"
                             "偙傟傑偱偺宱尡偑\n"
@@ -658,14 +658,14 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix1_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "崱夞偺僨僉 丗 擫偺偍傗偮僋儔僗",
-            /* OK        */ "崱夞偺僨僉 丗 挬怘僋儔僗",
-            /* SUPERB    */ "崱夞偺僨僉 丗 側傫偲丄 僨傿僫乕僋儔僗両両"
+            /* TRY_AGAIN */ "本次的餐点 ： 猫咪零食的级别",
+            /* OK        */ "本次的餐点 ： 早餐的级别",
+            /* SUPERB    */ "本次的餐点 ： 哇，晚宴的级别！！"
         }
     },
     /* REMIX_2 */ {
         /* Entry Scene   */ &scene_remix_2,
-        /* Level Name    */ "儕儈僢僋僗 俀",
+        /* Level Name    */ "Remix ２",
         /* Level Desc.   */ "僉儈偺幚椡傪\n"
                             "帋偟偰傒偰傒傞丠\n"
                             "偙傟傑偱偺宱尡偑\n"
@@ -674,14 +674,14 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "崱夞偺擬婥 丗 傂偲傝偱楙廗儗儀儖",
-            /* OK        */ "崱夞偺擬婥 丗 妝偟偔僉儍僢僠儃乕儖儗儀儖",
-            /* SUPERB    */ "崱夞偺擬婥 丗 偡偛偄戝夛儗儀儖両両"
+            /* TRY_AGAIN */ "本次的气氛 ： 一个人练习的水平",
+            /* OK        */ "本次的气氛 ： 愉快接球的水平",
+            /* SUPERB    */ "本次的气氛 ： 精彩比赛的水平！！"
         }
     },
     /* REMIX_3 */ {
         /* Entry Scene   */ &scene_remix_3,
-        /* Level Name    */ "儕儈僢僋僗 俁",
+        /* Level Name    */ "Remix ３",
         /* Level Desc.   */ "僉儈偺幚椡傪\n"
                             "帋偟偰傒偰傒傞丠\n"
                             "偙傟傑偱偺宱尡偑\n"
@@ -690,14 +690,14 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix3_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "崱夞偺儔僽 丗 僽儘乕僋儞僴乕僩偐傕乧",
-            /* OK        */ "崱夞偺儔僽 丗 偲偭偰傕僼儗儞僪儕乕側姶偠侓",
-            /* SUPERB    */ "崱夞偺儔僽 丗 儔僽儔僽偱乕偡両両"
+            /* TRY_AGAIN */ "本次的爱意 ： 好像已经心碎了…",
+            /* OK        */ "本次的爱意 ： 非常友好的感觉呢?",
+            /* SUPERB    */ "本次的爱意 ： 甜甜蜜蜜—！！"
         }
     },
     /* REMIX_4 */ {
         /* Entry Scene   */ &scene_remix_4,
-        /* Level Name    */ "儕儈僢僋僗 係",
+        /* Level Name    */ "Remix ４",
         /* Level Desc.   */ "僉儈偺幚椡傪\n"
                             "帋偟偰傒偰傒傞丠\n"
                             "偙傟傑偱偺宱尡偑\n"
@@ -706,14 +706,14 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix4_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "崱夞偺揤婥 丗 塉",
-            /* OK        */ "崱夞偺揤婥 丗 偔傕傝",
-            /* SUPERB    */ "崱夞偺揤婥 丗 僴僢僺乕側惏傟両両"
+            /* TRY_AGAIN */ "本次的天气 ： 雨",
+            /* OK        */ "本次的天气 ： 多云",
+            /* SUPERB    */ "本次的天气 ： 开心的晴天！！"
         }
     },
     /* REMIX_5 */ {
         /* Entry Scene   */ &scene_remix_5,
-        /* Level Name    */ "儕儈僢僋僗 俆",
+        /* Level Name    */ "Remix ５",
         /* Level Desc.   */ "僉儈偺幚椡傪\n"
                             "帋偟偰傒偰傒傞丠\n"
                             "偙傟傑偱偺宱尡偑\n"
@@ -722,14 +722,14 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix5_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "崱夞偺傆偨傝 丗 僕儍儅偝傟偰偟傑偭偨両",
-            /* OK        */ "崱夞偺傆偨傝 丗 偙偺偝偒丄僠儑僢僩晄埨偐傕乧",
-            /* SUPERB    */ "崱夞偺傆偨傝 丗 岾偣偵側傝傑偟偨侓"
+            /* TRY_AGAIN */ "本次的二人 ： 被强行分开了！",
+            /* OK        */ "本次的二人 ： 这种情况，有些不安啊…",
+            /* SUPERB    */ "本次的二人 ： 无比的开心?"
         }
     },
     /* REMIX_6 */ {
         /* Entry Scene   */ &scene_remix_6,
-        /* Level Name    */ "儕儈僢僋僗 俇",
+        /* Level Name    */ "Remix ６",
         /* Level Desc.   */ "僉儈偺幚椡傪\n"
                             "帋偟偰傒偰傒傞丠\n"
                             "偙傟傑偱偺宱尡偑\n"
@@ -745,7 +745,7 @@ struct LevelData level_data_table[] = {
     },
     /* REMIX_7 */ {
         /* Entry Scene   */ &scene_remix_7,
-        /* Level Name    */ "儕儈僢僋僗 俈",
+        /* Level Name    */ "Remix ７",
         /* Level Desc.   */ "僉儈偺幚椡傪\n"
                             "帋偟偰傒偰傒傞丠\n"
                             "偙傟傑偱偺宱尡偑\n"
@@ -761,7 +761,7 @@ struct LevelData level_data_table[] = {
     },
     /* REMIX_8 */ {
         /* Entry Scene   */ &scene_remix_8,
-        /* Level Name    */ "儕儈僢僋僗 俉",
+        /* Level Name    */ "Remix ８",
         /* Level Desc.   */ "僉儈偺幚椡傪\n"
                             "帋偟偰傒偰傒傞丠\n"
                             "偙傟傑偱偺宱尡偑\n"
@@ -777,7 +777,7 @@ struct LevelData level_data_table[] = {
     },
     /* CAFE */ {
         /* Entry Scene   */ &scene_cafe,
-        /* Level Name    */ "媔拑僇僂儞僙儖",
+        /* Level Name    */ "咖啡咨询",
         /* Level Desc.   */ "嵟嬤偺挷巕 偳偆丠\n"
                             "側偵偐婥偵側傟偽\n"
                             "偙偙偱憡択傪\n"
@@ -793,7 +793,7 @@ struct LevelData level_data_table[] = {
     },
     /* RHYTHM_TOYS */ {
         /* Entry Scene   */ &scene_toys_menu,
-        /* Level Name    */ "偍傕偪傖",
+        /* Level Name    */ "节奏玩具",
         /* Level Desc.   */ "儊僟儖傪 偁偮傔偰\n"
                             "壒偺偱傞偍傕偪傖偱\n"
                             "偁偦傫偱傒偰僱両\n"
@@ -809,7 +809,7 @@ struct LevelData level_data_table[] = {
     },
     /* ENDLESS_GAMES */ {
         /* Entry Scene   */ &scene_endless_menu,
-        /* Level Name    */ "僎乕儉",
+        /* Level Name    */ "无尽游戏",
         /* Level Desc.   */ "儊僟儖傪 偁偮傔偰\n"
                             "偲偔傋偮側僎乕儉偵\n"
                             "挧愴偟偰傒偰僱両\n"
@@ -825,7 +825,7 @@ struct LevelData level_data_table[] = {
     },
     /* DRUM_LESSONS */ {
         /* Entry Scene   */ &scene_lessons_menu,
-        /* Level Name    */ "僪儔儉儗僢僗儞",
+        /* Level Name    */ "击鼓课程",
         /* Level Desc.   */ "儊僟儖傪 偁偮傔偰\n"
                             "僪儔儉偺儗僢僗儞傪\n"
                             "偆偗偰傒傛偆丅\n"
@@ -841,7 +841,7 @@ struct LevelData level_data_table[] = {
     },
     /* STAFF_CREDIT */ {
         /* Entry Scene   */ &scene_staff_credit,
-        /* Level Name    */ "僗僞僢僼",
+        /* Level Name    */ "制作人员",
         /* Level Desc.   */ "傕偟 傛偐偭偨傜\n"
                             "尒偰傒偰僱丅\n"
                             "偙偺僎乕儉偺\n"
@@ -857,7 +857,7 @@ struct LevelData level_data_table[] = {
     },
     /* LIVE_MENU */ {
         /* Entry Scene   */ &scene_drum_live,
-        /* Level Name    */ "儔僀僽",
+        /* Level Name    */ "现场演出",
         /* Level Desc.   */ "儔僀僽偵弌墘偩両\n"
                             "僉儈偺儕僘儉姶偼\n"
                             "傛偄偲巚偆偐傜\n"
