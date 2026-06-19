@@ -9,11 +9,6 @@
 
 // [D_089dcf68] Title Logo Characters
 struct TitleLogoCharData title_logo_char_data[TOTAL_TITLE_LOGO_BUBBLES] = {
-    /* RI */ {
-        /* Anim. */ anim_title_logo_ri,
-        /* X, Y  */ 44, 78,
-        /* Angle */ 148
-    },
     /* ZU */ {
         /* Anim. */ anim_title_logo_zu,
         /* X, Y  */ 77, 88,

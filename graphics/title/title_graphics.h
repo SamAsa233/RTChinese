@@ -15,7 +15,6 @@ extern struct Animation anim_title_text[];
 extern struct Animation anim_title_null1[];
 extern struct Animation anim_title_stars_spin[];
 extern struct Animation anim_title_stars_appear[];
-extern struct Animation anim_title_logo_ri[];
 extern struct Animation anim_title_logo_zu[];
 extern struct Animation anim_title_logo_mu[];
 extern struct Animation anim_title_logo_ten[];
