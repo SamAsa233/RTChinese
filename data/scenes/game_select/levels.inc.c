@@ -658,9 +658,9 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix1_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "本次的餐点 : 猫咪零食的级别",
-            /* OK        */ "本次的餐点 : 早餐的级别",
-            /* SUPERB    */ "本次的餐点 : 哇，晚宴的级别！！"
+            /* TRY_AGAIN */ "本次的餐点 ： 猫咪零食的级别",
+            /* OK        */ "本次的餐点 ： 早餐的级别",
+            /* SUPERB    */ "本次的餐点 ： 哇，晚宴的级别！！"
         }
     },
     /* REMIX_2 */ {
@@ -674,9 +674,9 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "本次的气氛 : 一个人练习的水平",
-            /* OK        */ "本次的气氛 : 愉快接球的水平",
-            /* SUPERB    */ "本次的气氛 : 精彩比赛的水平！！"
+            /* TRY_AGAIN */ "本次的气氛 ： 一个人练习的水平",
+            /* OK        */ "本次的气氛 ： 愉快接球的水平",
+            /* SUPERB    */ "本次的气氛 ： 精彩比赛的水平！！"
         }
     },
     /* REMIX_3 */ {
@@ -690,9 +690,9 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix3_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "本次的爱意 : 好像已经心碎了…",
-            /* OK        */ "本次的爱意 : 非常友好的感觉呢?",
-            /* SUPERB    */ "本次的爱意 : 甜甜蜜蜜—！！"
+            /* TRY_AGAIN */ "本次的爱意 ： 好像已经心碎了…",
+            /* OK        */ "本次的爱意 ： 非常友好的感觉呢?",
+            /* SUPERB    */ "本次的爱意 ： 甜甜蜜蜜—！！"
         }
     },
     /* REMIX_4 */ {
@@ -706,9 +706,9 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix4_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "本次的天气 : 雨",
-            /* OK        */ "本次的天气 : 多云",
-            /* SUPERB    */ "本次的天气 : 开心的晴天！！"
+            /* TRY_AGAIN */ "本次的天气 ： 雨",
+            /* OK        */ "本次的天气 ： 多云",
+            /* SUPERB    */ "本次的天气 ： 开心的晴天！！"
         }
     },
     /* REMIX_5 */ {
@@ -722,9 +722,9 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix5_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "本次的二人 : 被强行分开了！",
-            /* OK        */ "本次的二人 : 这种情况，有些不安啊…",
-            /* SUPERB    */ "本次的二人 : 无比的开心?"
+            /* TRY_AGAIN */ "本次的二人 ： 被强行分开了！",
+            /* OK        */ "本次的二人 ： 这种情况，有些不安啊…",
+            /* SUPERB    */ "本次的二人 ： 无比的开心?"
         }
     },
     /* REMIX_6 */ {
@@ -738,9 +738,9 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix6_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "本次的内容 : 有些孤单的感觉",
-            /* OK        */ "本次的内容 : 意外的感觉",
-            /* SUPERB    */ "本次的内容 : 难以置信的感觉！！"
+            /* TRY_AGAIN */ "本次的内容 ： 有些孤单的感觉",
+            /* OK        */ "本次的内容 ： 意外的感觉",
+            /* SUPERB    */ "本次的内容 ： 难以置信的感觉！！"
         }
     },
     /* REMIX_7 */ {
@@ -765,14 +765,14 @@ struct LevelData level_data_table[] = {
         /* Level Desc.   */ "想检验一下\n"
                             "你的实力吗？\n"
                             "让之前的经验\n"
-                            "发挥作用吧!",
+                            "发挥作用吧！",
         /* Level Icon    */ 37,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix8_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "本次的驾驶 : 拜托…",
-            /* OK        */ "本次的驾驶 : 看来还要等很久啊",
-            /* SUPERB    */ "本次的驾驶 : 太爽快了！！"
+            /* TRY_AGAIN */ "本次的驾驶 ： 拜托…",
+            /* OK        */ "本次的驾驶 ： 看来还要等很久啊",
+            /* SUPERB    */ "本次的驾驶 ： 太爽快了！！"
         }
     },
     /* CAFE */ {
