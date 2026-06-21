@@ -73,8 +73,8 @@ struct StudioEntry studio_song_table[] = {
         /* Drum Script */ script_studio_space_dance
     },
     /* HONEY_SWEET_ANGEL */ {
-        /* Full Title  */ "Áµ°®µÄHoney Sweet?Angel",
-        /* Short Title */ "Áµ°®µÄHoney Sweet?¡­",
+        /* Full Title  */ "Áµ°®µÄHoney Sweet~Angel",
+        /* Short Title */ "Áµ°®µÄHoney Sweet~¡­",
         /* Drum Script */ script_studio_honey_sweet_angel
     },
     /* WISH */ {
@@ -198,17 +198,17 @@ struct StudioEntry studio_song_table[] = {
         /* Drum Script */ script_studio_fireworks
     },
     /* REMIX7 */ {
-        /* Full Title  */ "Remix£·",
+        /* Full Title  */ "Remix7",
         /* Short Title */ NULL,
         /* Drum Script */ script_studio_remix7
     },
     /* REMIX8 */ {
-        /* Full Title  */ "Remix£¸",
+        /* Full Title  */ "Remix8",
         /* Short Title */ NULL,
         /* Drum Script */ script_studio_remix8
     },
     /* REMIX6 */ {
-        /* Full Title  */ "Remix£¶",
+        /* Full Title  */ "Remix6",
         /* Short Title */ NULL,
         /* Drum Script */ script_studio_remix6
     },

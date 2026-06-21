@@ -13,12 +13,12 @@ struct LevelData level_data_table[] = {
         /* Epilogue Text */ {
             /* TRY_AGAIN */ "总会有明天的。",
             /* OK        */ "总而言之，先吃饭吧！",
-            /* SUPERB    */ "偙傫側偵 僽僢偲偽偟偪傖偭偨両両"
+            /* SUPERB    */ "这些东西全都被打飞了！！"
         }
     },
     /* KARATE_MAN_2 */ {
         /* Entry Scene   */ &scene_karate_man_2,
-        /* Level Name    */ "空手道家 ２",
+        /* Level Name    */ "空手道家 2",
         /* Level Desc.   */ "按A键出拳来击\n"
                             "打飞来的东西！\n"
                             "但是，速度是\n"
@@ -29,7 +29,7 @@ struct LevelData level_data_table[] = {
         /* Epilogue Text */ {
             /* TRY_AGAIN */ "这节奏是什么鬼啊—！！",
             /* OK        */ "不管那些，先吃饭吧！",
-            /* SUPERB    */ "偞偭偲 偙傫側儌儞偩偤乕両両"
+            /* SUPERB    */ "大概就是这样！！"
         }
     },
     /* CLAPPY_TRIO */ {
@@ -78,7 +78,7 @@ struct LevelData level_data_table[] = {
     },
     /* POLYRHYTHM_2 */ {
         /* Entry Scene   */ &scene_polyrhythm_2,
-        /* Level Name    */ "多轨节奏 ２",
+        /* Level Name    */ "多轨节奏 2",
         /* Level Desc.   */ "偙傟偧嵍塃撈棫両\n"
                             "僥儞億傛偔 偙側偟偰\n"
                             "儗僢僣 億儕儕僘儉両\n"
@@ -110,7 +110,7 @@ struct LevelData level_data_table[] = {
     },
     /* NIGHT_WALK_2 */ {
         /* Entry Scene   */ &scene_night_walk_2,
-        /* Level Name    */ "夜空漫步 ２",
+        /* Level Name    */ "夜空漫步 2",
         /* Level Desc.   */ "壒妝偵偁傢偣偰\n"
                             "僕儍儞僾偟偰僱両\n"
                             "價儕價儕僂僆偵\n"
@@ -142,7 +142,7 @@ struct LevelData level_data_table[] = {
     },
     /* RHYTHM_TWEEZERS_2 */ {
         /* Entry Scene   */ &scene_rhythm_tweezers_2,
-        /* Level Name    */ "节奏脱毛 ２",
+        /* Level Name    */ "节奏脱毛 2",
         /* Level Desc.   */ "傑偨偟偰傕惗偊偰偔傞\n"
                             "偆偭偲偆偟偄乽栄乿両\n"
                             "偸偄偪傖偊丄 \n"
@@ -189,7 +189,7 @@ struct LevelData level_data_table[] = {
     },
     /* BOUNCY_ROAD_2 */ {
         /* Entry Scene   */ &scene_bouncy_road_2,
-        /* Level Name    */ "弹跳之路 ２",
+        /* Level Name    */ "弹跳之路 2",
         /* Level Desc.   */ "偲傫偱偔傞娵偄嬍丅\n"
                             "傎傫偲偵僀僀傗偮\n"
                             "側傫偱偡儓乣丅\n"
@@ -252,7 +252,7 @@ struct LevelData level_data_table[] = {
     },
     /* SNEAKY_SPIRITS_2 */ {
         /* Entry Scene   */ &scene_sneaky_spirits_2,
-        /* Level Name    */ "白色的鬼 ２",
+        /* Level Name    */ "白色的鬼 2",
         /* Level Desc.   */ "敀偄儎僣偑 偙偪傜傪\n"
                             "僫儊偒偭偰偄傞両\n"
                             "儉僇儉僇乕僢両両\n"
@@ -300,7 +300,7 @@ struct LevelData level_data_table[] = {
     },
     /* SPACEBALL_2 */ {
         /* Entry Scene   */ &scene_spaceball_2,
-        /* Level Name    */ "空中击球手 ２",
+        /* Level Name    */ "空中击球手 2",
         /* Level Desc.   */ "僘乕儉傪偒偵偡傞側両\n"
                             "怱偱儃乕儖傪懪偰両\n"
                             "帇妎偵棅傞側両\n"
@@ -363,7 +363,7 @@ struct LevelData level_data_table[] = {
     },
     /* MARCHING_ORDERS_2 */ {
         /* Entry Scene   */ &scene_marching_orders_2,
-        /* Level Name    */ "行军 ２",
+        /* Level Name    */ "行军 2",
         /* Level Desc.   */ "峴恑傪偡傞偺偩丅\n"
                             "偙傫偳偺偼 偪傚偭偲\n"
                             "僥僋僯僇儖偩両\n"
@@ -443,7 +443,7 @@ struct LevelData level_data_table[] = {
     },
     /* POWER_CALLIGRAPHY_2 */ {
         /* Entry Scene   */ &scene_power_calligraphy,
-        /* Level Name    */ "节奏书法 ２",
+        /* Level Name    */ "节奏书法 2",
         /* Level Desc.   */ "昅傪巊偭偰擔杮岅傪\n"
                             "彂偒傑偡丅\n"
                             "偁側偨偑偡傞偺偼\n"
@@ -475,7 +475,7 @@ struct LevelData level_data_table[] = {
     },
     /* TOSS_BOYS_2 */ {
         /* Entry Scene   */ &scene_toss_boys_2,
-        /* Level Name    */ "传球少年 ２",
+        /* Level Name    */ "传球少年 2",
         /* Level Desc.   */ "側偐傛偟俁恖慻丄\n"
                             "惡傪偐偗偁偄側偑傜\n"
                             "偄偮傕妝偟偔僩僗偺\n"
@@ -618,161 +618,161 @@ struct LevelData level_data_table[] = {
     /* BON_ODORI */ {
         /* Entry Scene   */ &scene_bon_odori,
         /* Level Name    */ "The☆盂兰盆舞",
-        /* Level Desc.   */ "傏傫偍偳傝偺\n"
-                            "偆偨偵 偁傢偣偰\n"
-                            "僷儞僢偲 庤傪\n"
-                            "偨偨偒傑偟傚偆丅",
+        /* Level Desc.   */ "一起配合\n"
+                            "盂兰盆舞演唱\n"
+                            "中的“邦”\n"
+                            "来拍手吧。",
         /* Level Icon    */ 35,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_bon_odori_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "偝傓偄傢乧",
-            /* OK        */ "偣傫偙偆壴壩偭偰丄偣偮側偄偹丅",
-            /* SUPERB    */ "偁乕丄妝偟偐偭偨両"
+            /* TRY_AGAIN */ "变冷了呢…",
+            /* OK        */ "手持烟花令人苦乐参半",
+            /* SUPERB    */ "啊，太有趣了！"
         }
     },
     /* BON_DANCE */ {
         /* Entry Scene   */ &scene_bon_dance,
         /* Level Name    */ "盂兰盆舞",
-        /* Level Desc.   */ "偙傟偑 偄傑偳偒偺\n"
-                            "傏傫偍偳傝両\n"
-                            "僲儕僲儕偩儓両\n"
-                            "僀僃乕僀両",
+        /* Level Desc.   */ "这是现代版的\n"
+                            "盂兰盆舞！\n"
+                            "节奏感十足呢！\n"
+                            "耶！",
         /* Level Icon    */ 17,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_bon_dance_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "傕偆偄傗乧",
-            /* OK        */ "偆乕傫丄塉偑傆偭偰偒偪傖偭偨丅",
-            /* SUPERB    */ "儃儞僟儞僗偭偰 偡偛偔妝偟偄傛僱乕両"
+            /* TRY_AGAIN */ "别再跳了…",
+            /* OK        */ "嗯，开始下雨了。",
+            /* SUPERB    */ "盆舞真的太有意思了！"
         }
     },
     /* REMIX_1 */ {
         /* Entry Scene   */ &scene_remix_1,
-        /* Level Name    */ "Remix １",
-        /* Level Desc.   */ "僉儈偺幚椡傪\n"
-                            "帋偟偰傒偰傒傞丠\n"
-                            "偙傟傑偱偺宱尡偑\n"
-                            "儌僲傪尵偆儓乣両",
+        /* Level Name    */ "Remix 1",
+        /* Level Desc.   */ "想检验一下\n"
+                            "你的实力吗？\n"
+                            "让之前的经验\n"
+                            "发挥作用吧！",
         /* Level Icon    */ 22,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix1_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "本次的餐点 ： 猫咪零食的级别",
-            /* OK        */ "本次的餐点 ： 早餐的级别",
-            /* SUPERB    */ "本次的餐点 ： 哇，晚宴的级别！！"
+            /* TRY_AGAIN */ "本次的餐点 : 猫咪零食的级别",
+            /* OK        */ "本次的餐点 : 早餐的级别",
+            /* SUPERB    */ "本次的餐点 : 哇，晚宴的级别！！"
         }
     },
     /* REMIX_2 */ {
         /* Entry Scene   */ &scene_remix_2,
-        /* Level Name    */ "Remix ２",
-        /* Level Desc.   */ "僉儈偺幚椡傪\n"
-                            "帋偟偰傒偰傒傞丠\n"
-                            "偙傟傑偱偺宱尡偑\n"
-                            "儌僲傪尵偆儓乣両",
+        /* Level Name    */ "Remix 2",
+        /* Level Desc.   */ "想检验一下\n"
+                            "你的实力吗？\n"
+                            "让之前的经验\n"
+                            "发挥作用吧！",
         /* Level Icon    */ 27,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "本次的气氛 ： 一个人练习的水平",
-            /* OK        */ "本次的气氛 ： 愉快接球的水平",
-            /* SUPERB    */ "本次的气氛 ： 精彩比赛的水平！！"
+            /* TRY_AGAIN */ "本次的气氛 : 一个人练习的水平",
+            /* OK        */ "本次的气氛 : 愉快接球的水平",
+            /* SUPERB    */ "本次的气氛 : 精彩比赛的水平！！"
         }
     },
     /* REMIX_3 */ {
         /* Entry Scene   */ &scene_remix_3,
-        /* Level Name    */ "Remix ３",
-        /* Level Desc.   */ "僉儈偺幚椡傪\n"
-                            "帋偟偰傒偰傒傞丠\n"
-                            "偙傟傑偱偺宱尡偑\n"
-                            "儌僲傪尵偆儓乣両",
+        /* Level Name    */ "Remix 3",
+        /* Level Desc.   */ "想检验一下\n"
+                            "你的实力吗？\n"
+                            "让之前的经验\n"
+                            "发挥作用吧！",
         /* Level Icon    */ 33,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix3_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "本次的爱意 ： 好像已经心碎了…",
-            /* OK        */ "本次的爱意 ： 非常友好的感觉呢?",
-            /* SUPERB    */ "本次的爱意 ： 甜甜蜜蜜—！！"
+            /* TRY_AGAIN */ "本次的爱意 : 好像已经心碎了…",
+            /* OK        */ "本次的爱意 : 非常友好的感觉呢?",
+            /* SUPERB    */ "本次的爱意 : 甜甜蜜蜜—！！"
         }
     },
     /* REMIX_4 */ {
         /* Entry Scene   */ &scene_remix_4,
-        /* Level Name    */ "Remix ４",
-        /* Level Desc.   */ "僉儈偺幚椡傪\n"
-                            "帋偟偰傒偰傒傞丠\n"
-                            "偙傟傑偱偺宱尡偑\n"
-                            "儌僲傪尵偆儓乣両",
+        /* Level Name    */ "Remix 4",
+        /* Level Desc.   */ "想检验一下\n"
+                            "你的实力吗？\n"
+                            "让之前的经验\n"
+                            "发挥作用吧！",
         /* Level Icon    */ 34,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix4_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "本次的天气 ： 雨",
-            /* OK        */ "本次的天气 ： 多云",
-            /* SUPERB    */ "本次的天气 ： 开心的晴天！！"
+            /* TRY_AGAIN */ "本次的天气 : 雨",
+            /* OK        */ "本次的天气 : 多云",
+            /* SUPERB    */ "本次的天气 : 开心的晴天！！"
         }
     },
     /* REMIX_5 */ {
         /* Entry Scene   */ &scene_remix_5,
-        /* Level Name    */ "Remix ５",
-        /* Level Desc.   */ "僉儈偺幚椡傪\n"
-                            "帋偟偰傒偰傒傞丠\n"
-                            "偙傟傑偱偺宱尡偑\n"
-                            "儌僲傪尵偆儓乣両",
+        /* Level Name    */ "Remix 5",
+        /* Level Desc.   */ "想检验一下\n"
+                            "你的实力吗？\n"
+                            "让之前的经验\n"
+                            "发挥作用吧！",
         /* Level Icon    */ 39,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix5_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "本次的二人 ： 被强行分开了！",
-            /* OK        */ "本次的二人 ： 这种情况，有些不安啊…",
-            /* SUPERB    */ "本次的二人 ： 无比的开心?"
+            /* TRY_AGAIN */ "本次的二人 : 被强行分开了！",
+            /* OK        */ "本次的二人 : 这种情况，有些不安啊…",
+            /* SUPERB    */ "本次的二人 : 无比的开心?"
         }
     },
     /* REMIX_6 */ {
         /* Entry Scene   */ &scene_remix_6,
-        /* Level Name    */ "Remix ６",
-        /* Level Desc.   */ "僉儈偺幚椡傪\n"
-                            "帋偟偰傒偰傒傞丠\n"
-                            "偙傟傑偱偺宱尡偑\n"
-                            "儌僲傪尵偆儓乣両",
+        /* Level Name    */ "Remix 6",
+        /* Level Desc.   */ "想检验一下\n"
+                            "你的实力吗？\n"
+                            "让之前的经验\n"
+                            "发挥作用吧！",
         /* Level Icon    */ 2,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix6_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "崱夞偺撪梕 丗 傗傗偝傒偟偄僇儞僕",
-            /* OK        */ "崱夞偺撪梕 丗 堄奜側僇儞僕",
-            /* SUPERB    */ "崱夞偺撪梕 丗 傾儞價儕乕僶儃乕側僇儞僕両両"
+            /* TRY_AGAIN */ "本次的内容 : 有些孤单的感觉",
+            /* OK        */ "本次的内容 : 意外的感觉",
+            /* SUPERB    */ "本次的内容 : 难以置信的感觉！！"
         }
     },
     /* REMIX_7 */ {
         /* Entry Scene   */ &scene_remix_7,
-        /* Level Name    */ "Remix ７",
-        /* Level Desc.   */ "僉儈偺幚椡傪\n"
-                            "帋偟偰傒偰傒傞丠\n"
-                            "偙傟傑偱偺宱尡偑\n"
-                            "儌僲傪尵偆儓乣両",
+        /* Level Name    */ "Remix 7",
+        /* Level Desc.   */ "想检验一下\n"
+                            "你的实力吗？\n"
+                            "让之前的经验\n"
+                            "发挥作用吧！",
         /* Level Icon    */ 19,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix7_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "崱夞偺偒傚偆傝傘偆 丗 偄偠傢傞",
-            /* OK        */ "崱夞偺偒傚偆傝傘偆 丗 傎偺傏偺",
-            /* SUPERB    */ "崱夞偺偒傚偆傝傘偆 丗 妝偟偡偓乣両両"
+            /* TRY_AGAIN */ "本次的恐龙 : 充满恶意",
+            /* OK        */ "本次的恐龙 : 暖心的龙",
+            /* SUPERB    */ "本次的恐龙 : 太好玩了~！！"
         }
     },
     /* REMIX_8 */ {
         /* Entry Scene   */ &scene_remix_8,
-        /* Level Name    */ "Remix ８",
-        /* Level Desc.   */ "僉儈偺幚椡傪\n"
-                            "帋偟偰傒偰傒傞丠\n"
-                            "偙傟傑偱偺宱尡偑\n"
-                            "儌僲傪尵偆儓乣両",
+        /* Level Name    */ "Remix 8",
+        /* Level Desc.   */ "想检验一下\n"
+                            "你的实力吗？\n"
+                            "让之前的经验\n"
+                            "发挥作用吧!",
         /* Level Icon    */ 37,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix8_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "崱夞偺僪儔僀僽 丗 傫傕偅乧",
-            /* OK        */ "崱夞偺僪儔僀僽 丗 傑偩傑偩偐偐傞側偀",
-            /* SUPERB    */ "崱夞偺僪儔僀僽 丗 偲偭偰傕憉夣両両"
+            /* TRY_AGAIN */ "本次的驾驶 : 拜托…",
+            /* OK        */ "本次的驾驶 : 看来还要等很久啊",
+            /* SUPERB    */ "本次的驾驶 : 太爽快了！！"
         }
     },
     /* CAFE */ {
