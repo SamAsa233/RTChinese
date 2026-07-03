@@ -5,145 +5,145 @@
 /* Script Data - Staff Credits */
 
 
-const char D_08069a48[] = "制作人员名单";
+const char D_08069a48[] = "制作人员";
 
 const char D_08069a58[] = "制作人";
 
-const char D_08069a64[] = "淳君♂";
+const char D_08069a64[] = "偮傫偔亯";
 
-const char D_08069a70[] = "坂本 賀勇";
+const char D_08069a70[] = "嶁杮 夑桬";
 
 const char D_08069a7c[] = "主管";
 
-const char D_08069a88[] = "山野 勝也";
+const char D_08069a88[] = "嶳栰 彑栫";
 
-const char D_08069a94[] = "飯田 寛";
+const char D_08069a94[] = "斞揷 姲";
 
-const char D_08069a9c[] = "梅本 のぶやす";
+const char D_08069a9c[] = "攡杮 偺傇傗偡";
 
 const char D_08069aa8[] = "总监";
 
-const char D_08069ab8[] = "大澤 和義";
+const char D_08069ab8[] = "戝郪 榓媊";
 
 const char D_08069ac0[] = "游戏设计";
 
-const char D_08069acc[] = "竹内 高";
+const char D_08069acc[] = "抾撪 崅";
 
-const char D_08069ad8[] = "米 政美";
+const char D_08069ad8[] = "暷 惌旤";
 
-const char D_08069ae0[] = "池尾 佐知子";
+const char D_08069ae0[] = "抮旜 嵅抦巕";
 
-const char D_08069ae8[] = "古田 律克";
+const char D_08069ae8[] = "屆揷 棩崕";
 
-const char D_08069af4[] = "高橋 龍太郎";
+const char D_08069af4[] = "崅嫶 棿懢榊";
 
-const char D_08069b00[] = "竹内 康貴";
+const char D_08069b00[] = "抾撪 峃婱";
 
-const char D_08069b0c[] = "河野 正博";
+const char D_08069b0c[] = "壨栰 惓攷";
 
-const char D_08069b18[] = "程序导演";
+const char D_08069b18[] = "项目制作导演";
 
 const char D_08069b2c[] = "程序";
 
-const char D_08069b38[] = "设计指导";
+const char D_08069b38[] = "美术总监";
 
-const char D_08069b48[] = "设计";
+const char D_08069b48[] = "美术";
 
-const char D_08069b50[] = "宮本 文子";
+const char D_08069b50[] = "媨杮 暥巕";
 
-const char D_08069b5c[] = "音效指导";
+const char D_08069b5c[] = "??е傅?";
 
-const char D_08069b6c[] = "小黒 薫輝";
+const char D_08069b6c[] = "彫崟 孫婸";
 
-const char D_08069b74[] = "鎌田 浩二";
+const char D_08069b74[] = "姍揷 峗擇";
 
 const char D_08069b80[] = "作曲";
 
 const char D_08069b88[] = "编曲";
 
-const char D_08069b9c[] = "湯浅 公一";
+const char D_08069b9c[] = "搾愺 岞堦";
 
-const char D_08069ba4[] = "鈴木 DAICHI 秀行";
+const char D_08069ba4[] = "楅栘 DAICHI 廏峴";
 
-const char D_08069bb0[] = "大久保 薫";
+const char D_08069bb0[] = "戝媣曐 孫";
 
-const char D_08069bb8[] = "椎葉 大翼";
+const char D_08069bb8[] = "捙梩 戝梼";
 
 const char D_08069bc4[] = "音效";
 
-const char D_08069bd4[] = "藤井 貴矢";
+const char D_08069bd4[] = "摗堜 婱栴";
 
 const char D_08069bdc[] = "演唱";
 
-const char D_08069be4[] = "時東　ぁみ";
+const char D_08069be4[] = "帪搶丂偀傒";
 
-const char D_08069bf0[] = "田中　総史";
+const char D_08069bf0[] = "揷拞丂憤巎";
 
 const char D_08069bfc[] = "配音";
 
-const char D_08069c04[] = "北村 典子";
+const char D_08069c04[] = "杒懞 揟巕";
 
-const char D_08069c10[] = "野村 真穂";
+const char D_08069c10[] = "栰懞 恀曚";
 
 const char D_08069c1c[] = "测试";
 
-const char D_08069c24[] = "安達 悠平";
+const char D_08069c24[] = "埨払 桰暯";
 
-const char D_08069c30[] = "橋田 直樹";
+const char D_08069c30[] = "嫶揷 捈庽";
 
-const char D_08069c3c[] = "髙田 成雄";
+const char D_08069c3c[] = "揷 惉梇";
 
-const char D_08069c48[] = "西川 大輔";
+const char D_08069c48[] = "惣愳 戝曘";
 
-const char D_08069c54[] = "すご りか";
+const char D_08069c54[] = "偡偛 傝偐";
 
-const char D_08069c5c[] = "足立 真吾";
+const char D_08069c5c[] = "懌棫 恀屷";
 
-const char D_08069c68[] = "さかぐち ひろこ";
+const char D_08069c68[] = "偝偐偖偪 傂傠偙";
 
-const char D_08069c74[] = "渡辺 紀之";
+const char D_08069c74[] = "搉曈 婭擵";
 
-const char D_08069c80[] = "まつだ ひろし";
+const char D_08069c80[] = "傑偮偩 傂傠偟";
 
-const char D_08069c8c[] = "もりた だいすけ";
+const char D_08069c8c[] = "傕傝偨 偩偄偡偗";
 
-const char D_08069c98[] = "うめだ かずひろ";
+const char D_08069c98[] = "偆傔偩 偐偢傂傠";
 
-const char D_08069ca0[] = "なかい ゆた";
+const char D_08069ca0[] = "側偐偄 備偨";
 
-const char D_08069ca8[] = "藤川 容子";
+const char D_08069ca8[] = "摗愳 梕巕";
 
-const char D_08069cb4[] = "にしもと けいいちろ";
+const char D_08069cb4[] = "偵偟傕偲 偗偄偄偪傠";
 
-const char D_08069cc0[] = "あきほ たけし";
+const char D_08069cc0[] = "偁偒傎 偨偗偟";
 
-const char D_08069cc8[] = "寺井 准";
+const char D_08069cc8[] = "帥堜 弝";
 
-const char D_08069cd0[] = "しみずばた あいこ";
+const char D_08069cd0[] = "偟傒偢偽偨 偁偄偙";
 
-const char D_08069ce0[] = "やました よしかず";
+const char D_08069ce0[] = "傗傑偟偨 傛偟偐偢";
 
-const char D_08069cec[] = "特别鸣谢";
+const char D_08069cec[] = "特别呜谢";
 
-const char D_08069cfc[] = "くらつね よしあき";
+const char D_08069cfc[] = "偔傜偮偹 傛偟偁偒";
 
-const char D_08069d08[] = "改元 竜太";
+const char D_08069d08[] = "夵尦 棾懢";
 
-const char D_08069d14[] = "坂上 博樹";
+const char D_08069d14[] = "嶁忋 攷庽";
 
-const char D_08069d20[] = "吉冨 亮二";
+const char D_08069d20[] = "媑晊 椇擇";
 
-const char D_08069d2c[] = "山本 伸樹";
+const char D_08069d2c[] = "嶳杮 怢庽";
 
-const char D_08069d38[] = "堀田 拓司";
+const char D_08069d38[] = "杧揷 戱巌";
 
-const char D_08069d40[] = "松宮 信雄";
+const char D_08069d40[] = "徏媨 怣梇";
 
-const char D_08069d4c[] = "みつばち　まき";
+const char D_08069d4c[] = "傒偮偽偪丂傑偒";
 
-const char D_08069d5c[] = "剣持 あゆち";
+const char D_08069d5c[] = "寱帩 偁備偪";
 
-const char D_08069d68[] = "中野 ひとみ";
+const char D_08069d68[] = "拞栰 傂偲傒";
 
 const char D_08069d74[] = "还有你";
 
@@ -151,9 +151,9 @@ const char D_08069d7c[] = "执行";
 
 const char D_08069d88[] = "    制作人";
 
-const char D_08069d98[] = "岩田 聡";
+const char D_08069d98[] = "娾揷 憦";
 
-const char D_08069da0[] = "てらい さだひろ";
+const char D_08069da0[] = "偰傜偄 偝偩傂傠";
 
 const char D_08069da8[] = "";
 

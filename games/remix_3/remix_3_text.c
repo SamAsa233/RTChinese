@@ -20,16 +20,16 @@ const char D_0806a0a0[] = "‚Æ‚Ä‚à@ƒeƒNƒjƒJƒ‹‚¾I";
 const char D_0806a0b8[] = "‚È‚¼‚ÌƒŠƒYƒ€‘gD‚©‚ç’Ê’B";
 
 const char D_0806a0d4[] =
-    "\x05\x31" "\x01\x35" " ?¡¡Áµ°®µÄHoney Sweet?Angel";
+    "\x05\x31" "\x01\x35" "¡¡ô¡¡Áµ°®µÄHoney Sweet~Angel";
 
 const char D_0806a0fc[] =
-    "\x05\x31" "\x01\x35" "Ñİ³ª¡¡¡¡•r–|¡¡¤¡¤ß";
+    "\x05\x31" "\x01\x35" "Ñİ³ª¡¡¡¡“Œ@‚Ÿ‚İ";
 
 const char D_0806a118[] =
     "\x05\x31" "\x01\x35" "×÷´Ê¡¡×÷Çú¡¡¡¡´¾¾ı";
 
 const char D_0806a134[] =
-    "\x05\x31" "\x01\x35" "±àÇú¡¡¡¡âÄ¾DaichiĞãĞĞ";
+    "\x05\x31" "\x01\x35" "±àÇú¡¡¡¡—é–ØDaichiGs";
 
 const char D_0806a154[] =
     "\n"
