@@ -10,3 +10,4 @@ tools/agbcc/*
 *.dump
 .vscode/*
 ctx.c
+RTChinese.code-workspace
